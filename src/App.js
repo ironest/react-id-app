@@ -53,11 +53,11 @@ class App extends Component {
 
           <p className="alertMsg">{extraUsernameInfo}</p>
           <label>Username</label>
-          <input type="text" onChange={this.inputUserOnChange} />
+          <input type="text" value={username} onChange={this.inputUserOnChange} />
 
           <p className="alertMsg">{extraPasswordInfo}</p>
           <label>Password</label>
-          <input type="password" onChange={this.inputPassOnChange} />
+          <input type="password" value={password} onChange={this.inputPassOnChange} />
         </div>
 
         <div className="panel">
