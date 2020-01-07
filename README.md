@@ -1,3 +1,25 @@
+# React Practice - User ID Card
+
+### Instruction
+
+Create a react app that will accept a username and email address.
+
+##### Wireframe:
+
+![wireframe](./docs/wireframe.png)
+
+##### Core:
+
+As the user types the username and email should be displayed below a avatar picture on the right
+
+##### Advanced:
+
+Add extra event listeners to the form so that some extra information appears when a user starts to type etc
+
+---
+
+##### Configuration
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
